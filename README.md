@@ -7,8 +7,11 @@ This repository contains the prebuilt libraries required for the FreeSpace Open 
  * [Shaderc](https://github.com/google/shaderc)
  * [MoltenVK](https://github.com/KhronosGroup/MoltenVK) (macOS only)
  * [Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) (Windows and Linux)
+ * [Qt 6](https://www.qt.io/development/qt-framework/qt6)
 
 The libraries are compiled for the three major platforms we support: Linux (x64, arm64), macOS (x64, arm64), and Windows (x32, x64, arm64). To make adding or updating libraries easier this repository automatically builds the packages and uploads them to [Github Releases](https://github.com/scp-fs2open/scp-prebuilt/releases). This happens when a new push is detected on the master branch and affects the libs themselves (and not the CI scripts).  Alternatively a build may be triggered manually from the Actions tab using the `Build Release Package` workflow.
+
+Note: Qt 6 is not supported on 32-bit Windows without third-party patches, so we exclude Win32 packages of Qt 6 at this time.
 
 ## Using the packages
 The packages are automatically downloaded by CMake when an outdated library version is detected. The packages created by the Github Action CI scripts in this repository are named after the Git commit of this repository from which the package is created.
