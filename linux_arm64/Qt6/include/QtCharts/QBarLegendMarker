@@ -1,0 +1,1 @@
+#include <QtCharts/qbarlegendmarker.h> // IWYU pragma: export

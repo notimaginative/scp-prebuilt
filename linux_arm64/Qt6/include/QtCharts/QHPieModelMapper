@@ -1,0 +1,1 @@
+#include <QtCharts/qhpiemodelmapper.h> // IWYU pragma: export

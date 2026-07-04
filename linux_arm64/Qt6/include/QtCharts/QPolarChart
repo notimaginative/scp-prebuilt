@@ -1,0 +1,1 @@
+#include <QtCharts/qpolarchart.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtMultimedia/qmediacapturesession.h> // IWYU pragma: export

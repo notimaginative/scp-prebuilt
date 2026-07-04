@@ -1,0 +1,1 @@
+#include <QtMultimedia/qplaybackoptions.h> // IWYU pragma: export
