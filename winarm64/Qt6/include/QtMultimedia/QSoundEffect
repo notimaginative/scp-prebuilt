@@ -1,0 +1,1 @@
+#include <QtMultimedia/qsoundeffect.h> // IWYU pragma: export

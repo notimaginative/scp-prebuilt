@@ -1,0 +1,1 @@
+#include <QtCharts/qcandlestickmodelmapper.h> // IWYU pragma: export

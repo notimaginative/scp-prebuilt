@@ -1,0 +1,1 @@
+#include <QtCharts/qvbarmodelmapper.h> // IWYU pragma: export
