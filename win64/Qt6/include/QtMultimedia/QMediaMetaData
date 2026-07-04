@@ -1,0 +1,1 @@
+#include <QtMultimedia/qmediametadata.h> // IWYU pragma: export

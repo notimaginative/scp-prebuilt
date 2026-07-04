@@ -1,0 +1,1 @@
+#include <QtMultimedia/qaudiosink.h> // IWYU pragma: export

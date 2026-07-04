@@ -1,0 +1,20 @@
+{
+    "schema_version": 3,
+    "name": "LabsStyleKitImpl",
+    "repository": "qtdeclarative",
+    "version": "6.11.1",
+    "platforms": [
+        {
+            "name": "Windows",
+            "version": "10.0.22621",
+            "compiler_id": "MSVC",
+            "compiler_version": "19.44.35217.0",
+            "targets": [
+                {
+                    "architecture": "x86_64",
+                    "abi": "x86_64-little_endian-lp64"
+                }
+            ]
+        }
+    ]
+}

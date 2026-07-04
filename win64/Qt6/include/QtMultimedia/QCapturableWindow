@@ -1,0 +1,1 @@
+#include <QtMultimedia/qcapturablewindow.h> // IWYU pragma: export
