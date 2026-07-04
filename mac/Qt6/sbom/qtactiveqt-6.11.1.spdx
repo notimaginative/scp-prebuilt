@@ -1,0 +1,110 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtactiveqt-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qtactiveqt-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.3.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-05-24T09:23:36Z
+
+PackageName: qtactiveqt
+SPDXID: SPDXRef-Package-qtactiveqt-d7dd6550dabd
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtactiveqt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtactiveqt@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtactiveqt@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtactiveqt.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.3.3 with Release configuration for Darwin (arm64)
+qtactiveqt was configured with:
+    qt6/configure -release -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF -DCMAKE_OSX_ARCHITECTURES=x86_64;arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-05-24T09:23:36Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtactiveqt-d7dd6550dabd
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-CMake-d7dd6550dabd BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-d7dd6550dabd
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-d7dd6550dabd is built using CMake version 4.3.3</text>
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-d7dd6550dabd BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-d7dd6550dabd
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-d7dd6550dabd is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-Compiler-AppleClang-d7dd6550dabd BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-d7dd6550dabd
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-d7dd6550dabd is built by compiler: 'AppleClang' version: '21.0.0.21000101' frontend variant: 'GNU'</text>
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-Linker-AppleClang-d7dd6550dabd BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-d7dd6550dabd
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-d7dd6550dabd is built by linker 'AppleClang' version '1267' frontend variant: 'GNU'</text>
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-CMake-d7dd6550dabd
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 4.3.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-d7dd6550dabd CONTAINS SPDXRef-Package-qtactiveqt-build-tool-CMake-d7dd6550dabd
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-d7dd6550dabd
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.13.2
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-d7dd6550dabd CONTAINS SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-d7dd6550dabd
+
+PackageName: Compiler AppleClang
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-Compiler-AppleClang-d7dd6550dabd
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 21.0.0.21000101
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Darwin' (arm64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-d7dd6550dabd CONTAINS SPDXRef-Package-qtactiveqt-build-tool-Compiler-AppleClang-d7dd6550dabd
+
+PackageName: Linker AppleClang
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-Linker-AppleClang-d7dd6550dabd
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1267
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolLinker
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-d7dd6550dabd CONTAINS SPDXRef-Package-qtactiveqt-build-tool-Linker-AppleClang-d7dd6550dabd
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

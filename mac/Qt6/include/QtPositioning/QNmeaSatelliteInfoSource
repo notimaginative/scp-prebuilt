@@ -1,0 +1,1 @@
+#include <QtPositioning/qnmeasatelliteinfosource.h> // IWYU pragma: export

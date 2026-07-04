@@ -1,0 +1,182 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qttasktree-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qttasktree-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.3.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-05-24T09:23:36Z
+ExternalDocumentRef: DocumentRef-qtbase-cf15f61a7fad https://qt.io/spdxdocs/qtbase-6.11.1-host-darwin-arm64-target-macos-arm64-790f40f0-d401-52bc-91b2-b0884713450a SHA1: ae580c18597d97ef93bfd340216cf339569ed4dc
+
+PackageName: qttasktree
+SPDXID: SPDXRef-Package-qttasktree-e8bd4f98a617
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qttasktree:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qttasktree@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qttasktree@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qttasktree.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.3.3 with Release configuration for Darwin (arm64)
+qttasktree was configured with:
+    qt6/configure -release -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF -DCMAKE_OSX_ARCHITECTURES=x86_64;arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-05-24T09:23:36Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qttasktree-e8bd4f98a617
+Relationship: SPDXRef-Package-qttasktree-build-tool-CMake-e8bd4f98a617 BUILD_DEPENDENCY_OF SPDXRef-Package-qttasktree-e8bd4f98a617
+RelationshipComment: <text>SPDXRef-Package-qttasktree-e8bd4f98a617 is built using CMake version 4.3.3</text>
+Relationship: SPDXRef-Package-qttasktree-build-tool-CMake-generator-Ninja-e8bd4f98a617 BUILD_DEPENDENCY_OF SPDXRef-Package-qttasktree-e8bd4f98a617
+RelationshipComment: <text>SPDXRef-Package-qttasktree-e8bd4f98a617 is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qttasktree-build-tool-Compiler-AppleClang-e8bd4f98a617 BUILD_DEPENDENCY_OF SPDXRef-Package-qttasktree-e8bd4f98a617
+RelationshipComment: <text>SPDXRef-Package-qttasktree-e8bd4f98a617 is built by compiler: 'AppleClang' version: '21.0.0.21000101' frontend variant: 'GNU'</text>
+Relationship: SPDXRef-Package-qttasktree-build-tool-Linker-AppleClang-e8bd4f98a617 BUILD_DEPENDENCY_OF SPDXRef-Package-qttasktree-e8bd4f98a617
+RelationshipComment: <text>SPDXRef-Package-qttasktree-e8bd4f98a617 is built by linker 'AppleClang' version '1267' frontend variant: 'GNU'</text>
+
+PackageName: TaskTree
+SPDXID: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617
+PackageDownloadLocation: git://code.qt.io/qt/qttasktree.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qttasktree?library_name=TaskTree#src/tasktree
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qttasktree-TaskTree?vcs_url=https://code.qt.io/qt/qttasktree.git&library_name=TaskTree#src/tasktree
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: TaskTree
+CMake exported target name: Qt6::TaskTree
+Contained in CMake package: Qt6TaskTree
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qttasktree:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: e0cc906464d34fb180974b225725cb60bb154d64
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qttasktree-e8bd4f98a617 CONTAINS SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617
+Relationship: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Concurrent-cf15f61a7fad
+Relationship: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Network-cf15f61a7fad
+
+FileName: ./lib/libQt6TaskTree.6.11.1.dylib
+SPDXID: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617
+FileType: BINARY
+FileChecksum: SHA1: 46dc8b7c62f326a7dd48fc996ebb9e80c20ec02a
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qttasktree-qt-module-TaskTree-e8bd4f98a617 CONTAINS SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /Users/taylor/Downloads/output/qt-everywhere-src-6.11.1/build/qtbase/include/QtTaskTree/qttasktreeexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qbarriertask.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qbarriertask.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qconditional.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qconditional.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtasktree.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtasktree.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtasktreerunner.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtasktreerunner.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qttasktreeglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qthreadfunctiontask.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qthreadfunctiontask.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qnetworkreplywrappertask.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qnetworkreplywrappertask.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtcpsocketwrappertask.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qtcpsocketwrappertask.h
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qprocesstask.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-TaskTree-e8bd4f98a617 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qttasktree/src/tasktree/qprocesstask.h
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qttasktree-build-tool-CMake-e8bd4f98a617
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 4.3.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qttasktreeSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qttasktree-e8bd4f98a617 CONTAINS SPDXRef-Package-qttasktree-build-tool-CMake-e8bd4f98a617
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qttasktree-build-tool-CMake-generator-Ninja-e8bd4f98a617
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.13.2
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qttasktreeSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qttasktree-e8bd4f98a617 CONTAINS SPDXRef-Package-qttasktree-build-tool-CMake-generator-Ninja-e8bd4f98a617
+
+PackageName: Compiler AppleClang
+SPDXID: SPDXRef-Package-qttasktree-build-tool-Compiler-AppleClang-e8bd4f98a617
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 21.0.0.21000101
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Darwin' (arm64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qttasktreeSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qttasktree-e8bd4f98a617 CONTAINS SPDXRef-Package-qttasktree-build-tool-Compiler-AppleClang-e8bd4f98a617
+
+PackageName: Linker AppleClang
+SPDXID: SPDXRef-Package-qttasktree-build-tool-Linker-AppleClang-e8bd4f98a617
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1267
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qttasktreeSbomBuildToolLinker
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qttasktree-e8bd4f98a617 CONTAINS SPDXRef-Package-qttasktree-build-tool-Linker-AppleClang-e8bd4f98a617
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

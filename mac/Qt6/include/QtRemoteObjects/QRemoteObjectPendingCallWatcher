@@ -1,0 +1,1 @@
+#include <QtRemoteObjects/qremoteobjectpendingcall.h> // IWYU pragma: export

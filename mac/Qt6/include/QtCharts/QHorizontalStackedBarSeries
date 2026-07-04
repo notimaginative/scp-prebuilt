@@ -1,0 +1,1 @@
+#include <QtCharts/qhorizontalstackedbarseries.h> // IWYU pragma: export
