@@ -1,0 +1,93 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtactiveqt-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qtactiveqt-6.11.1-host-linux-x86_64-target-linux-x86_64-63c41eaa-b033-5187-9787-48088b420dc1
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.22.1, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-06-07T20:20:53Z
+
+PackageName: qtactiveqt
+SPDXID: SPDXRef-Package-qtactiveqt-8a9ea5258f8c
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtactiveqt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtactiveqt@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtactiveqt@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtactiveqt.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.22.1 with Release configuration for Linux (x86_64)
+qtactiveqt was configured with:
+    qt6/configure -release -qt-freetype -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-06-07T20:20:53Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtactiveqt-8a9ea5258f8c
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-CMake-8a9ea5258f8c BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-8a9ea5258f8c
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-8a9ea5258f8c is built using CMake version 3.22.1</text>
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-8a9ea5258f8c BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-8a9ea5258f8c
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-8a9ea5258f8c is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.10.1'</text>
+Relationship: SPDXRef-Package-qtactiveqt-build-tool-Compiler-GNU-8a9ea5258f8c BUILD_DEPENDENCY_OF SPDXRef-Package-qtactiveqt-8a9ea5258f8c
+RelationshipComment: <text>SPDXRef-Package-qtactiveqt-8a9ea5258f8c is built by compiler: 'GNU' version: '11.4.0' frontend variant: ''</text>
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-CMake-8a9ea5258f8c
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 3.22.1
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-8a9ea5258f8c CONTAINS SPDXRef-Package-qtactiveqt-build-tool-CMake-8a9ea5258f8c
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-8a9ea5258f8c
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.10.1
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-8a9ea5258f8c CONTAINS SPDXRef-Package-qtactiveqt-build-tool-CMake-generator-Ninja-8a9ea5258f8c
+
+PackageName: Compiler GNU
+SPDXID: SPDXRef-Package-qtactiveqt-build-tool-Compiler-GNU-8a9ea5258f8c
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 11.4.0
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Linux' (x86_64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtactiveqtSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtactiveqt-8a9ea5258f8c CONTAINS SPDXRef-Package-qtactiveqt-build-tool-Compiler-GNU-8a9ea5258f8c
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

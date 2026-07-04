@@ -1,0 +1,8 @@
+#ifndef QT_QTMULTIMEDIAWIDGETS_MODULE_H
+#define QT_QTMULTIMEDIAWIDGETS_MODULE_H
+#include <QtMultimediaWidgets/QtMultimediaWidgetsDepends>
+#include <QtMultimediaWidgets/qtmultimediawidgetsglobal.h>
+#include <QtMultimediaWidgets/qgraphicsvideoitem.h>
+#include <QtMultimediaWidgets/qtmultimediawidgetsversion.h>
+#include <QtMultimediaWidgets/qvideowidget.h>
+#endif

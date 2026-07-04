@@ -1,0 +1,15 @@
+#ifndef QT_QTREMOTEOBJECTS_MODULE_H
+#define QT_QTREMOTEOBJECTS_MODULE_H
+#include <QtRemoteObjects/QtRemoteObjectsDepends>
+#include <QtRemoteObjects/qtremoteobjectglobal.h>
+#include <QtRemoteObjects/qconnectionfactories.h>
+#include <QtRemoteObjects/qremoteobjectabstractitemmodelreplica.h>
+#include <QtRemoteObjects/qremoteobjectdynamicreplica.h>
+#include <QtRemoteObjects/qremoteobjectnode.h>
+#include <QtRemoteObjects/qremoteobjectpendingcall.h>
+#include <QtRemoteObjects/qremoteobjectregistry.h>
+#include <QtRemoteObjects/qremoteobjectreplica.h>
+#include <QtRemoteObjects/qremoteobjectsettingsstore.h>
+#include <QtRemoteObjects/qremoteobjectsource.h>
+#include <QtRemoteObjects/qtremoteobjectsversion.h>
+#endif
