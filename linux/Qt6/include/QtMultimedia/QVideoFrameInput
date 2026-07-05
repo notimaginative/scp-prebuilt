@@ -1,0 +1,1 @@
+#include <QtMultimedia/qvideoframeinput.h> // IWYU pragma: export

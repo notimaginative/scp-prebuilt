@@ -1,0 +1,400 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtremoteobjects-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qtremoteobjects-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.3.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-05-24T09:23:28Z
+ExternalDocumentRef: DocumentRef-qtbase-cf15f61a7fad https://qt.io/spdxdocs/qtbase-6.11.1-host-darwin-arm64-target-macos-arm64-790f40f0-d401-52bc-91b2-b0884713450a SHA1: ae580c18597d97ef93bfd340216cf339569ed4dc
+ExternalDocumentRef: DocumentRef-qtdeclarative-7f38f58fb47d https://qt.io/spdxdocs/qtdeclarative-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e SHA1: 6e6c7657f7a61572a4221ae6b15ce5f09a95b8d3
+
+PackageName: qtremoteobjects
+SPDXID: SPDXRef-Package-qtremoteobjects-6d6888af0e42
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.3.3 with Release configuration for Darwin (arm64)
+qtremoteobjects was configured with:
+    qt6/configure -release -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF -DCMAKE_OSX_ARCHITECTURES=x86_64;arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-05-24T09:23:28Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtremoteobjects-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-build-tool-CMake-6d6888af0e42 BUILD_DEPENDENCY_OF SPDXRef-Package-qtremoteobjects-6d6888af0e42
+RelationshipComment: <text>SPDXRef-Package-qtremoteobjects-6d6888af0e42 is built using CMake version 4.3.3</text>
+Relationship: SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-6d6888af0e42 BUILD_DEPENDENCY_OF SPDXRef-Package-qtremoteobjects-6d6888af0e42
+RelationshipComment: <text>SPDXRef-Package-qtremoteobjects-6d6888af0e42 is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qtremoteobjects-build-tool-Compiler-AppleClang-6d6888af0e42 BUILD_DEPENDENCY_OF SPDXRef-Package-qtremoteobjects-6d6888af0e42
+RelationshipComment: <text>SPDXRef-Package-qtremoteobjects-6d6888af0e42 is built by compiler: 'AppleClang' version: '21.0.0.21000101' frontend variant: 'GNU'</text>
+Relationship: SPDXRef-Package-qtremoteobjects-build-tool-Linker-AppleClang-6d6888af0e42 BUILD_DEPENDENCY_OF SPDXRef-Package-qtremoteobjects-6d6888af0e42
+RelationshipComment: <text>SPDXRef-Package-qtremoteobjects-6d6888af0e42 is built by linker 'AppleClang' version '1267' frontend variant: 'GNU'</text>
+
+PackageName: RepParser
+SPDXID: SPDXRef-Package-qtremoteobjects-qt-module-RepParser-6d6888af0e42
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtremoteobjects?library_name=RepParser
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects-RepParser?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RepParser
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: RepParser
+CMake exported target name: Qt6::RepParser
+Contained in CMake package: Qt6RepParser
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-qt-module-RepParser-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RepParser-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+
+PackageName: RemoteObjects
+SPDXID: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtremoteobjects?library_name=RemoteObjects#src/remoteobjects
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjects?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RemoteObjects#src/remoteobjects
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: RemoteObjects
+CMake exported target name: Qt6::RemoteObjects
+Contained in CMake package: Qt6RemoteObjects
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: a84070b1da664e37b2c5b0d7e249819a51ea04f9
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Network-cf15f61a7fad
+
+FileName: ./lib/libQt6RemoteObjects.6.11.1.dylib
+SPDXID: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42
+FileType: BINARY
+FileChecksum: SHA1: 3eb89c36ad8a065c871e08f13b3dbc47b6b80a49
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42 CONTAINS SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /Users/taylor/Downloads/output/qt-everywhere-src-6.11.1/build/qtbase/include/QtRemoteObjects/qtremoteobjectsexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnection_local_backend.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnection_local_backend_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnectionfactories.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnectionfactories.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qconnectionfactories_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeltypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectnode.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectnode.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectnode_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectstructs_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectpacket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectpacket_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectreplica_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectrepparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectrepparser_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsource.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjects/qtremoteobjects-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjects/qtremoteobjects-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/rep_grammar.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjects/repparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjects/rep_grammar_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjects/repparser.h
+
+PackageName: RemoteObjectsQml
+SPDXID: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtremoteobjects?library_name=RemoteObjectsQml#src/remoteobjectsqml
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjectsQml?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RemoteObjectsQml#src/remoteobjectsqml
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: RemoteObjectsQml
+CMake exported target name: Qt6::RemoteObjectsQml
+Contained in CMake package: Qt6RemoteObjectsQml
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: ed0100c31fb0ce80b4910b7af502b3361cb3a5ce
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Gui-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 DEPENDS_ON DocumentRef-qtdeclarative-7f38f58fb47d:SPDXRef-Package-qtdeclarative-qt-module-Qml-7f38f58fb47d
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 DEPENDS_ON SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-6d6888af0e42
+
+FileName: ./lib/libQt6RemoteObjectsQml.6.11.1.dylib
+SPDXID: SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-6d6888af0e42
+FileType: BINARY
+FileChecksum: SHA1: 971b1ffc25b7758a0bd67fc6cf32248060e7c5ec
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42 CONTAINS SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-6d6888af0e42
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/src/remoteobjectsqml/qremoteobjectsqml_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjectsqml/remoteobjectsqml_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjectsqml/.qt/rcc/qrc_qmake_QtRemoteObjects.cpp
+
+PackageName: declarative_remoteobjects
+SPDXID: SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtremoteobjects?library_name=declarative_remoteobjects#src/remoteobjectsqml
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects-declarative_remoteobjects?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=declarative_remoteobjects#src/remoteobjectsqml
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: declarative_remoteobjects
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: e63002bccb6bb96daea9bf32a7164236d3c8ef30
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42 DEPENDS_ON DocumentRef-qtdeclarative-7f38f58fb47d:SPDXRef-Package-qtdeclarative-qt-module-Qml-7f38f58fb47d
+Relationship: SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42 DEPENDS_ON SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-6d6888af0e42
+
+FileName: ./qml/QtRemoteObjects/libdeclarative_remoteobjectsplugin.dylib
+SPDXID: SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-6d6888af0e42
+FileType: BINARY
+FileChecksum: SHA1: 3c1d3f098bde665e5c749c670f509238c3f153b2
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-6d6888af0e42 CONTAINS SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-6d6888af0e42
+Relationship: SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/src/remoteobjectsqml/declarative_remoteobjects_QtRemoteObjectsPlugin.cpp
+
+PackageName: repc
+SPDXID: SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42
+PackageDownloadLocation: git://code.qt.io/qt/qtremoteobjects.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtremoteobjects?library_name=repc#tools/repc
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtremoteobjects-repc?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=repc#tools/repc
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: APPLICATION
+PackageComment: <text>
+CMake target name: repc
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: c5781309af6596390ac58371a9299d5641b56ff3
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42
+Relationship: SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformToolInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42 DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal-cf15f61a7fad
+
+FileName: ./libexec/repc
+SPDXID: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42
+FileType: BINARY
+FileChecksum: SHA1: d703e6645707d0f7b2768c0965afb4cd79680dbc
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtremoteobjects-qt-tool-repc-6d6888af0e42 CONTAINS SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/cppcodegenerator.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/cppcodegenerator.h
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/main.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/repcodegenerator.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/repcodegenerator.h
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/utils.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/utils.h
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/rep_grammar.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtremoteobjects/tools/repc/repparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/tools/repc/rep_grammar_p.h
+Relationship: SPDXRef-PackagedFile-qt-tool-repc-6d6888af0e42 GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtremoteobjects/tools/repc/repparser.h
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtremoteobjects-build-tool-CMake-6d6888af0e42
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 4.3.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtremoteobjectsSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-build-tool-CMake-6d6888af0e42
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-6d6888af0e42
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.13.2
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtremoteobjectsSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-6d6888af0e42
+
+PackageName: Compiler AppleClang
+SPDXID: SPDXRef-Package-qtremoteobjects-build-tool-Compiler-AppleClang-6d6888af0e42
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 21.0.0.21000101
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Darwin' (arm64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtremoteobjectsSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-build-tool-Compiler-AppleClang-6d6888af0e42
+
+PackageName: Linker AppleClang
+SPDXID: SPDXRef-Package-qtremoteobjects-build-tool-Linker-AppleClang-6d6888af0e42
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1267
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtremoteobjectsSbomBuildToolLinker
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtremoteobjects-6d6888af0e42 CONTAINS SPDXRef-Package-qtremoteobjects-build-tool-Linker-AppleClang-6d6888af0e42
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

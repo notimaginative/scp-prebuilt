@@ -1,0 +1,1 @@
+#include <QtPositioning/qgeoaddress.h> // IWYU pragma: export

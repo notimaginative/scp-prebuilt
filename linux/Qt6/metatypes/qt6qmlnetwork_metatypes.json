@@ -1,0 +1,32 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Foreign",
+                        "value": "QNetworkInformation"
+                    },
+                    {
+                        "name": "QML.Element",
+                        "value": "NetworkInformation"
+                    },
+                    {
+                        "name": "QML.AddedInVersion",
+                        "value": "1543"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "QQmlNetworkInformation",
+                "gadget": true,
+                "lineNumber": 28,
+                "qualifiedClassName": "QQmlNetworkInformation"
+            }
+        ],
+        "inputFile": "qqmlnetworkinformation_p.h",
+        "outputRevision": 69
+    }
+]

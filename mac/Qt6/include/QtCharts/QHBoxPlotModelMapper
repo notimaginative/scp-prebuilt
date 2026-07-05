@@ -1,0 +1,1 @@
+#include <QtCharts/qhboxplotmodelmapper.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtMultimedia/qwavedecoder.h> // IWYU pragma: export

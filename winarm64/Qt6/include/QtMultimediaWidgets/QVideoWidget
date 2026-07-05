@@ -1,0 +1,1 @@
+#include <QtMultimediaWidgets/qvideowidget.h> // IWYU pragma: export

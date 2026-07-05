@@ -1,0 +1,1 @@
+#include <QtRemoteObjects/qtremoteobjectsversion.h> // IWYU pragma: export

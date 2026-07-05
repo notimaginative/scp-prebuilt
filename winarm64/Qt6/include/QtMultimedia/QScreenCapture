@@ -1,0 +1,1 @@
+#include <QtMultimedia/qscreencapture.h> // IWYU pragma: export

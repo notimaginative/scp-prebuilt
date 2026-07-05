@@ -1,0 +1,1 @@
+#include <QtCharts/qboxset.h> // IWYU pragma: export

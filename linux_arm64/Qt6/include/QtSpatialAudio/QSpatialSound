@@ -1,0 +1,1 @@
+#include <QtSpatialAudio/qspatialsound.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtPositioning/qnmeapositioninfosource.h> // IWYU pragma: export

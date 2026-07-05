@@ -1,0 +1,259 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtwebsockets-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qtwebsockets-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.3.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-05-24T09:23:39Z
+ExternalDocumentRef: DocumentRef-qtbase-cf15f61a7fad https://qt.io/spdxdocs/qtbase-6.11.1-host-darwin-arm64-target-macos-arm64-790f40f0-d401-52bc-91b2-b0884713450a SHA1: ae580c18597d97ef93bfd340216cf339569ed4dc
+ExternalDocumentRef: DocumentRef-qtdeclarative-7f38f58fb47d https://qt.io/spdxdocs/qtdeclarative-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e SHA1: 6e6c7657f7a61572a4221ae6b15ce5f09a95b8d3
+
+PackageName: qtwebsockets
+SPDXID: SPDXRef-Package-qtwebsockets-85272fd46a6a
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebsockets:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebsockets@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebsockets@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtwebsockets.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.3.3 with Release configuration for Darwin (arm64)
+qtwebsockets was configured with:
+    qt6/configure -release -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF -DCMAKE_OSX_ARCHITECTURES=x86_64;arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-05-24T09:23:39Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtwebsockets-85272fd46a6a
+Relationship: SPDXRef-Package-qtwebsockets-build-tool-CMake-85272fd46a6a BUILD_DEPENDENCY_OF SPDXRef-Package-qtwebsockets-85272fd46a6a
+RelationshipComment: <text>SPDXRef-Package-qtwebsockets-85272fd46a6a is built using CMake version 4.3.3</text>
+Relationship: SPDXRef-Package-qtwebsockets-build-tool-CMake-generator-Ninja-85272fd46a6a BUILD_DEPENDENCY_OF SPDXRef-Package-qtwebsockets-85272fd46a6a
+RelationshipComment: <text>SPDXRef-Package-qtwebsockets-85272fd46a6a is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qtwebsockets-build-tool-Compiler-AppleClang-85272fd46a6a BUILD_DEPENDENCY_OF SPDXRef-Package-qtwebsockets-85272fd46a6a
+RelationshipComment: <text>SPDXRef-Package-qtwebsockets-85272fd46a6a is built by compiler: 'AppleClang' version: '21.0.0.21000101' frontend variant: 'GNU'</text>
+Relationship: SPDXRef-Package-qtwebsockets-build-tool-Linker-AppleClang-85272fd46a6a BUILD_DEPENDENCY_OF SPDXRef-Package-qtwebsockets-85272fd46a6a
+RelationshipComment: <text>SPDXRef-Package-qtwebsockets-85272fd46a6a is built by linker 'AppleClang' version '1267' frontend variant: 'GNU'</text>
+
+PackageName: WebSockets
+SPDXID: SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a
+PackageDownloadLocation: git://code.qt.io/qt/qtwebsockets.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebsockets?library_name=WebSockets#src/websockets
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebsockets-WebSockets?vcs_url=https://code.qt.io/qt/qtwebsockets.git&library_name=WebSockets#src/websockets
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: WebSockets
+CMake exported target name: Qt6::WebSockets
+Contained in CMake package: Qt6WebSockets
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebsockets:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: 328547926a5a78bcf3a29bb06b7ae5a0b93ca5dd
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a
+Relationship: SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Network-cf15f61a7fad
+Relationship: SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+
+FileName: ./lib/libQt6WebSockets.6.11.1.dylib
+SPDXID: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a
+FileType: BINARY
+FileChecksum: SHA1: 0cc71807e45a36373b91ce889c1cc526870acbef
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a CONTAINS SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /Users/taylor/Downloads/output/qt-everywhere-src-6.11.1/build/qtbase/include/QtWebSockets/qtwebsocketsexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qmaskgenerator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qmaskgenerator.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocket.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocket_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocket_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketcorsauthenticator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketdataprocessor.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketdataprocessor_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketframe.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketframe_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakeoptions.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakeoptions.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakeoptions_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakerequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakerequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakeresponse.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockethandshakeresponse_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketprotocol.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsockets_global.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketserver.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketserver_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/websockets/qwebsocketserver_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtwebsockets/src/websockets/qtwebsockets-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebSockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtwebsockets/src/websockets/qtwebsockets-config_p.h
+
+PackageName: qmlwebsockets
+SPDXID: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a
+PackageDownloadLocation: git://code.qt.io/qt/qtwebsockets.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebsockets?library_name=qmlwebsockets#src/imports/qmlwebsockets
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebsockets-qmlwebsockets?vcs_url=https://code.qt.io/qt/qtwebsockets.git&library_name=qmlwebsockets#src/imports/qmlwebsockets
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: qmlwebsockets
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebsockets:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: fc362a234df325f37530124d1b95510c6e564d9b
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a
+Relationship: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a DEPENDS_ON DocumentRef-qtdeclarative-7f38f58fb47d:SPDXRef-Package-qtdeclarative-qt-module-Qml-7f38f58fb47d
+Relationship: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a DEPENDS_ON SPDXRef-Package-qtwebsockets-qt-module-WebSockets-85272fd46a6a
+
+FileName: ./qml/QtWebSockets/libqmlwebsocketsplugin.dylib
+SPDXID: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a
+FileType: BINARY
+FileChecksum: SHA1: 54510cadf0ee6870c52e1904cf885c7058e217a0
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets-85272fd46a6a CONTAINS SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtwebsockets/src/imports/qmlwebsockets/.qt/rcc/qrc_qmake_QtWebSockets.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-85272fd46a6a GENERATED_FROM NOASSERTION
+RelationshipComment: /build_dir/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_QtWebSocketsDeclarativeModule.cpp
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtwebsockets-build-tool-CMake-85272fd46a6a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 4.3.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtwebsocketsSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-build-tool-CMake-85272fd46a6a
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtwebsockets-build-tool-CMake-generator-Ninja-85272fd46a6a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.13.2
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtwebsocketsSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-build-tool-CMake-generator-Ninja-85272fd46a6a
+
+PackageName: Compiler AppleClang
+SPDXID: SPDXRef-Package-qtwebsockets-build-tool-Compiler-AppleClang-85272fd46a6a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 21.0.0.21000101
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Darwin' (arm64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtwebsocketsSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-build-tool-Compiler-AppleClang-85272fd46a6a
+
+PackageName: Linker AppleClang
+SPDXID: SPDXRef-Package-qtwebsockets-build-tool-Linker-AppleClang-85272fd46a6a
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1267
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtwebsocketsSbomBuildToolLinker
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtwebsockets-85272fd46a6a CONTAINS SPDXRef-Package-qtwebsockets-build-tool-Linker-AppleClang-85272fd46a6a
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

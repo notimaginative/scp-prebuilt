@@ -1,0 +1,1 @@
+#include <QtPositioning/qgeorectangle.h> // IWYU pragma: export

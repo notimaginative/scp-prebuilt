@@ -1,0 +1,232 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtlanguageserver-6.11.1
+DocumentNamespace: https://qt.io/spdxdocs/qtlanguageserver-6.11.1-host-darwin-arm64-target-macos-arm64-62f26789-2f56-5ff9-a62f-f8580bb7830e
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 4.3.3, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2026-05-24T09:23:15Z
+ExternalDocumentRef: DocumentRef-qtbase-cf15f61a7fad https://qt.io/spdxdocs/qtbase-6.11.1-host-darwin-arm64-target-macos-arm64-790f40f0-d401-52bc-91b2-b0884713450a SHA1: ae580c18597d97ef93bfd340216cf339569ed4dc
+
+PackageName: qtlanguageserver
+SPDXID: SPDXRef-Package-qtlanguageserver-cb724cec9aae
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlanguageserver:6.11.1:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver@6.11.1
+PackageVersion: 6.11.1
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver@6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) The Qt Company Ltd. and other contributors.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 4.3.3 with Release configuration for Darwin (arm64)
+qtlanguageserver was configured with:
+    qt6/configure -release -qt-libjpeg -qt-libpng -qt-zlib -qt-pcre -qt-harfbuzz -qt-doubleconversion -no-openssl -no-framework -submodules qtbase,qtimageformats,qtdeclarative,qtsvg,qtremoteobjects,qtdoc -skip qtcoap,qtvirtualkeyboard,qtquick3d,qtquick3dphysics,qtquicktimeline,qtnetworkauth,qtmqtt,qtlottie,qthttpserver,qtgrpc,qtgraphs,qtwebengine,qtconnectivity,qtcanvaspainter,qtlocation,qtsensors,qtserialport,qtserialbus,qtwayland -- -DBUILD_qtbase=ON -DBUILD_qtimageformats=ON -DBUILD_qtdeclarative=ON -DBUILD_qtsvg=ON -DBUILD_qtremoteobjects=ON -DBUILD_qtdoc=ON -DQT_FEATURE_wayland_server=OFF -DQT_FEATURE_designer=OFF -DQT_FEATURE_linguist=OFF -DQT_FEATURE_pixeltool=OFF -DQT_FEATURE_androiddeployqt=OFF -DQT_FEATURE_wasmdeployqt=OFF -DCMAKE_OSX_ARCHITECTURES=x86_64;arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+</text>
+FilesAnalyzed: false
+BuiltDate: 2026-05-24T09:23:15Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtlanguageserver-cb724cec9aae
+Relationship: SPDXRef-Package-qtlanguageserver-build-tool-CMake-cb724cec9aae BUILD_DEPENDENCY_OF SPDXRef-Package-qtlanguageserver-cb724cec9aae
+RelationshipComment: <text>SPDXRef-Package-qtlanguageserver-cb724cec9aae is built using CMake version 4.3.3</text>
+Relationship: SPDXRef-Package-qtlanguageserver-build-tool-CMake-generator-Ninja-cb724cec9aae BUILD_DEPENDENCY_OF SPDXRef-Package-qtlanguageserver-cb724cec9aae
+RelationshipComment: <text>SPDXRef-Package-qtlanguageserver-cb724cec9aae is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.13.2'</text>
+Relationship: SPDXRef-Package-qtlanguageserver-build-tool-Compiler-AppleClang-cb724cec9aae BUILD_DEPENDENCY_OF SPDXRef-Package-qtlanguageserver-cb724cec9aae
+RelationshipComment: <text>SPDXRef-Package-qtlanguageserver-cb724cec9aae is built by compiler: 'AppleClang' version: '21.0.0.21000101' frontend variant: 'GNU'</text>
+Relationship: SPDXRef-Package-qtlanguageserver-build-tool-Linker-AppleClang-cb724cec9aae BUILD_DEPENDENCY_OF SPDXRef-Package-qtlanguageserver-cb724cec9aae
+RelationshipComment: <text>SPDXRef-Package-qtlanguageserver-cb724cec9aae is built by linker 'AppleClang' version '1267' frontend variant: 'GNU'</text>
+
+PackageName: JsonRpcPrivate
+SPDXID: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlanguageserver?library_name=JsonRpcPrivate#src/jsonrpc
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver-JsonRpcPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=JsonRpcPrivate#src/jsonrpc
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: JsonRpcPrivate
+CMake exported target name: Qt6::JsonRpc
+Contained in CMake package: Qt6JsonRpcPrivate
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlanguageserver:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: 15952a04f2c6e81c6e6b33e386045c58c376ffac
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+
+FileName: ./lib/libQt6JsonRpc.a
+SPDXID: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae
+FileType: BINARY
+FileChecksum: SHA1: 97fda3b536e93826f0ebf95608a147aad8ee6ab8
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae CONTAINS SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qtjsonrpcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsontypedrpc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qjsontypedrpc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qtypedjson_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/jsonrpc/qtypedjson.cpp
+
+PackageName: LanguageServerPrivate
+SPDXID: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageVersion: 6.11.1
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlanguageserver?library_name=LanguageServerPrivate#src/languageserver
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver-LanguageServerPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=LanguageServerPrivate#src/languageserver
+PackageCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+CMake target name: LanguageServerPrivate
+CMake exported target name: Qt6::LanguageServer
+Contained in CMake package: Qt6LanguageServerPrivate
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlanguageserver:6.11.1:*:*:*:*:*:*:*
+PackageVerificationCode: 8c58e5df2ec2c6e3703a4ce5355283955661dce4
+FilesAnalyzed: true
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-cf15f61a7fad
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae DEPENDS_ON DocumentRef-qtbase-cf15f61a7fad:SPDXRef-Package-qtbase-qt-module-Core-cf15f61a7fad
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae DEPENDS_ON SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate-cb724cec9aae
+
+FileName: ./lib/libQt6LanguageServer.a
+SPDXID: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae
+FileType: BINARY
+FileChecksum: SHA1: 56de2934a1005bc6079666a7b25def7456bcbb96
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd. and other contributors.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate-cb724cec9aae CONTAINS SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverprespectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverspec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverspectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qtlanguageserverglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverbase_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageservergen_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageservergen_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageservergen.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlanguageserverprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlspnotifysignals_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-cb724cec9aae GENERATED_FROM NOASSERTION
+RelationshipComment: /src_dir/qtlanguageserver/src/languageserver/qlspnotifysignals.cpp
+
+PackageName: CMake
+SPDXID: SPDXRef-Package-qtlanguageserver-build-tool-CMake-cb724cec9aae
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 4.3.3
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtlanguageserverSbomBuildToolCMake
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-build-tool-CMake-cb724cec9aae
+
+PackageName: CMake generator Ninja
+SPDXID: SPDXRef-Package-qtlanguageserver-build-tool-CMake-generator-Ninja-cb724cec9aae
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1.13.2
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtlanguageserverSbomBuildToolCMakeGenerator
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-build-tool-CMake-generator-Ninja-cb724cec9aae
+
+PackageName: Compiler AppleClang
+SPDXID: SPDXRef-Package-qtlanguageserver-build-tool-Compiler-AppleClang-cb724cec9aae
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 21.0.0.21000101
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The compiler as identified by CMake, running on 'Darwin' (arm64)</text>
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtlanguageserverSbomBuildToolCompiler
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-build-tool-Compiler-AppleClang-cb724cec9aae
+
+PackageName: Linker AppleClang
+SPDXID: SPDXRef-Package-qtlanguageserver-build-tool-Linker-AppleClang-cb724cec9aae
+PackageDownloadLocation: NOASSERTION
+PackageVersion: 1267
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: OTHER
+PackageComment: <text>
+CMake target name: qtlanguageserverSbomBuildToolLinker
+</text>
+FilesAnalyzed: false
+Relationship: SPDXRef-Package-qtlanguageserver-cb724cec9aae CONTAINS SPDXRef-Package-qtlanguageserver-build-tool-Linker-AppleClang-cb724cec9aae
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

@@ -1,0 +1,23 @@
+#ifndef QT_QTPOSITIONING_MODULE_H
+#define QT_QTPOSITIONING_MODULE_H
+#include <QtPositioning/QtPositioningDepends>
+#include <QtPositioning/qpositioningglobal.h>
+#include <QtPositioning/qgeoaddress.h>
+#include <QtPositioning/qgeoareamonitorinfo.h>
+#include <QtPositioning/qgeoareamonitorsource.h>
+#include <QtPositioning/qgeocircle.h>
+#include <QtPositioning/qgeocoordinate.h>
+#include <QtPositioning/qgeolocation.h>
+#include <QtPositioning/qgeopath.h>
+#include <QtPositioning/qgeopolygon.h>
+#include <QtPositioning/qgeopositioninfo.h>
+#include <QtPositioning/qgeopositioninfosource.h>
+#include <QtPositioning/qgeopositioninfosourcefactory.h>
+#include <QtPositioning/qgeorectangle.h>
+#include <QtPositioning/qgeosatelliteinfo.h>
+#include <QtPositioning/qgeosatelliteinfosource.h>
+#include <QtPositioning/qgeoshape.h>
+#include <QtPositioning/qnmeapositioninfosource.h>
+#include <QtPositioning/qnmeasatelliteinfosource.h>
+#include <QtPositioning/qtpositioningversion.h>
+#endif

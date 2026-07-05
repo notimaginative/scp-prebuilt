@@ -1,0 +1,11 @@
+#ifndef QT_QTSPATIALAUDIO_MODULE_H
+#define QT_QTSPATIALAUDIO_MODULE_H
+#include <QtSpatialAudio/QtSpatialAudioDepends>
+#include <QtSpatialAudio/qtspatialaudioglobal.h>
+#include <QtSpatialAudio/qambientsound.h>
+#include <QtSpatialAudio/qaudioengine.h>
+#include <QtSpatialAudio/qaudiolistener.h>
+#include <QtSpatialAudio/qaudioroom.h>
+#include <QtSpatialAudio/qspatialsound.h>
+#include <QtSpatialAudio/qtspatialaudioversion.h>
+#endif

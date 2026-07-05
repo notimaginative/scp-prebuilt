@@ -1,0 +1,347 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QBarrier",
+                "lineNumber": 26,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QBarrier",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "QtTaskTree::DoneResult"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 48,
+                        "name": "done",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "QStartedBarrier",
+                "lineNumber": 56,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QStartedBarrier",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "fullyQualifiedName": "QtTaskTree::QBarrier",
+                        "name": "QBarrier"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qbarriertask.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QNetworkReplyWrapper",
+                "lineNumber": 25,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QNetworkReplyWrapper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 43,
+                        "name": "started",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "bytesReceived",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "bytesTotal",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 44,
+                        "name": "downloadProgress",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QtTaskTree::DoneResult"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 48,
+                        "name": "done",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qnetworkreplywrappertask.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QTaskInterface",
+                "final": true,
+                "lineNumber": 578,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QTaskInterface",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QtTaskTree::DoneResult"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 588,
+                        "name": "done",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "QTaskTree",
+                "lineNumber": 775,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QTaskTree",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 825,
+                        "name": "started",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QtTaskTree::DoneWith"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 826,
+                        "name": "done",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "count",
+                                "type": "qsizetype"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 827,
+                        "name": "asyncCountChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "qsizetype"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 828,
+                        "name": "progressValueChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "QtTaskTree",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "lineNumber": 71,
+                        "name": "WorkflowPolicy",
+                        "values": [
+                            "StopOnError",
+                            "ContinueOnError",
+                            "StopOnSuccess",
+                            "ContinueOnSuccess",
+                            "StopOnSuccessOrError",
+                            "FinishAllAndSuccess",
+                            "FinishAllAndError"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "lineNumber": 83,
+                        "name": "SetupResult",
+                        "values": [
+                            "Continue",
+                            "StopWithSuccess",
+                            "StopWithError"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "lineNumber": 91,
+                        "name": "DoneResult",
+                        "values": [
+                            "Success",
+                            "Error"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "lineNumber": 98,
+                        "name": "DoneWith",
+                        "values": [
+                            "Success",
+                            "Error",
+                            "Cancel"
+                        ]
+                    },
+                    {
+                        "alias": "CallDoneFlag",
+                        "isClass": true,
+                        "isFlag": true,
+                        "lineNumber": 106,
+                        "name": "CallDone",
+                        "values": [
+                            "Never",
+                            "OnSuccess",
+                            "OnError",
+                            "OnCancel",
+                            "Always"
+                        ]
+                    }
+                ],
+                "lineNumber": 67,
+                "namespace": true,
+                "qualifiedClassName": "QtTaskTree"
+            }
+        ],
+        "inputFile": "qtasktree.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "QTcpSocketWrapper",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::QTcpSocketWrapper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 39,
+                        "name": "started",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QtTaskTree::DoneResult"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 40,
+                        "name": "done",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qtcpsocketwrappertask.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Reaper",
+                "lineNumber": 55,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::Reaper",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 72,
+                        "name": "finished",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "ProcessReaperPrivate",
+                "lineNumber": 122,
+                "object": true,
+                "qualifiedClassName": "QtTaskTree::ProcessReaperPrivate",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qprocesstask.cpp",
+        "outputRevision": 69
+    }
+]

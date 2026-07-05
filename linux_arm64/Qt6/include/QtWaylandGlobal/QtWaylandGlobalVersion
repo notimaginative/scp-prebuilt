@@ -1,0 +1,1 @@
+#include <QtWaylandGlobal/qtwaylandglobalversion.h> // IWYU pragma: export

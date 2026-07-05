@@ -1,0 +1,1 @@
+#include <QtCharts/qxylegendmarker.h> // IWYU pragma: export

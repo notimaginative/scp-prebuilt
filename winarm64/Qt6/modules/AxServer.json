@@ -1,0 +1,20 @@
+{
+    "schema_version": 3,
+    "name": "AxServer",
+    "repository": "qtactiveqt",
+    "version": "6.11.1",
+    "platforms": [
+        {
+            "name": "Windows",
+            "version": "10.0.22621",
+            "compiler_id": "MSVC",
+            "compiler_version": "19.44.35217.0",
+            "targets": [
+                {
+                    "architecture": "arm64",
+                    "abi": "arm64-little_endian-lp64"
+                }
+            ]
+        }
+    ]
+}

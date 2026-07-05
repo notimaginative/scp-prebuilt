@@ -1,0 +1,1 @@
+#include <QtMultimedia/qabstractvideobuffer.h> // IWYU pragma: export
