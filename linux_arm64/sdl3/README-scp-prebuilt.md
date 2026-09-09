@@ -1,4 +1,4 @@
-SDL version 3.4.14 built on Ubuntu 24.04 (docker)
+SDL version 3.4.14 built on Ubuntu 22.04 (docker)
 
 [SDL3-3.4.14.tar.gz](https://github.com/libsdl-org/SDL/releases/download/release-3.4.14/SDL3-3.4.14.tar.gz)
 
